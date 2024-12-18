@@ -1,13 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: metrics.aspose.com-qa
+name: metrics.aspose.cloud-qa
 
 # Controls when the action will run. 
 on: 
   workflow_dispatch: 
   # Scheduled trigger
   schedule:
-    - cron: '55 */3 * * *'
+  # - cron: '55 */3 * * *'
   
   #push:
   #  branches: [ main ]
